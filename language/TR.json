@@ -6,8 +6,8 @@
     "STRINGS": { 
         "_asena": {
             "COMMAND": "Komut",
-            "DESC": "Açıklama",
-            "EXAMPLE": "Örnek",
+            "DESC": "Açığlama",
+            "EXAMPLE": "Məsələn",
             "NOT_FOUND": "*Böyle bir komut bulamadım!*",
             "WARN": "Uyarı"
         },
