@@ -24,7 +24,8 @@ Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async
         await message.client.sendMessage(
             message.jid, 
             fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
-            MessageType.video
+            MessageType.video, 
+            { mimetype: Mimetype.gif, caption: "```WhatsAsena {user} İçin Çalışıyor!```\n\n*Version:* ```0.25.2 - Dev```\n*Grade:* ```Founder```\n*AI Packages:* ```Xteam / Eva / DeepAI / WhatsAsena / RTDA```\n*DeepAI Version:* ```1.0.17```\n*XTeam Verison:* ```4.4```" }
         )
     }
 }));
